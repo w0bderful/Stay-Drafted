@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Stay Drafted</name>
+  <author>w0bderful</author>
+  <packageId>w0bderful.holddraft</packageId>
+  <modVersion>3.1.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>w0bderful.giantmeals</li>
+  </incompatibleWith>
+  <description>Normal player drafting now stays active until manually or forcibly undrafted. No extra toggle is required. An optional Allow auto-undraft button uses a separate cancel icon and is hidden by default.
+
+A persistent alert warns when humanlike player pawns remain continuously drafted for 24 in-game hours (configurable: 1?168 hours). It clears on undrafting, and a new draft starts a new timer. Timer and opt-out choices survive saves.
+
+The event-driven monitor checks only tracked drafted pawns once per 600 ticks, with cached alert reports. This mod keeps the original Hold Draft package ID for compatibility. Do not enable both old and new copies.</description>
+</ModMetaData>

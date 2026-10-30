@@ -1,0 +1,30 @@
+{
+  "checks": 19,
+  "intervalTicks": 600,
+  "samples": [
+    {
+      "name": "idle tick: 10 drafted, 10,000 other pawns",
+      "iterations": 1000000,
+      "milliseconds": 3.8512,
+      "allocatedBytes": 0
+    },
+    {
+      "name": "cached alert report",
+      "iterations": 1000000,
+      "milliseconds": 20.8897,
+      "allocatedBytes": 0
+    },
+    {
+      "name": "600-tick scan: 10 tracked",
+      "iterations": 10000,
+      "milliseconds": 4.3034,
+      "allocatedBytes": 0
+    },
+    {
+      "name": "stress scan: 10,001 tracked",
+      "iterations": 100,
+      "milliseconds": 20.6849,
+      "allocatedBytes": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SD_Help>Draft normally to stay drafted. Manual and forced undrafting still work. The optional per-pawn button is hidden by default.</SD_Help>
+  <SD_ShowButton>Show the optional Allow auto-undraft button (default: off)</SD_ShowButton>
+  <SD_WarningHours>Long-draft warning after {0} in-game hours</SD_WarningHours>
+  <SD_Reset>Reset to defaults</SD_Reset>
+  <SD_AllowAuto>Allow auto-undraft</SD_AllowAuto>
+  <SD_AllowAutoDesc>Allow vanilla idle automatic undrafting for this pawn. Off by default: an ordinary Draft command stays active. This button does not draft or undraft the pawn immediately.</SD_AllowAutoDesc>
+  <SD_AlertLabel>Drafted for a long time</SD_AlertLabel>
+  <SD_AlertDesc>These colonists have remained continuously drafted for at least {0} in-game hours. They may need rest or food. Undraft them when ready.
+
+{1}</SD_AlertDesc>
+</LanguageData>
